@@ -1,0 +1,15 @@
+.c-promos {
+    color: $white;
+    display: flex;
+}
+.c-promos__left,.c-promos__right {
+    padding: 2em;
+}
+.c-promos__left {
+    flex-basis: 60%;
+    background: $blue-light;
+}
+.c-promos__right {
+    flex-basis: 40%;
+    background: $purple;
+}

@@ -3,6 +3,8 @@
 @import "~font-awesome/css/font-awesome.css";
 @import "components/nav";
 @import "components/sub-header";
+@import "components/promos";
+@import "components/button";
 
 body {
     margin: 0;
@@ -20,4 +22,10 @@ body {
     -webkit-box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
+}
+
+.sale-tag {
+    color: $white;
+    background: $black;
+    padding: 4px;
 }
