@@ -1,13 +1,23 @@
 @import "variables";
+@import "utils";
+@import "~font-awesome/css/font-awesome.css";
+@import "components/nav";
+@import "components/sub-header";
 
 body {
     margin: 0;
     font-family: "helvetica";
-    h3 {
-        color: blue;
-    }
-
 }
 * {
     box-sizing: border-box;
+}
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+    -webkit-box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 82px -10px rgba(0, 0, 0, 0.4);
 }
