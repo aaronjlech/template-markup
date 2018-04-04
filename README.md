@@ -1,1 +1,1 @@
-Simple project Configuration for `webpack@4.XX`
+HTML & CSS markup for eCommerce template
